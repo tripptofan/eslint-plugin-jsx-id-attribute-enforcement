@@ -1,0 +1,42 @@
+{
+  "name": "eslint-plugin-enforce-ids-in-jsx",
+  "version": "1.0.0",
+  "description": "A small collection of ESLint rules to improve usage of id attributes in your markup.",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "thmion",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "babel src -d lib",
+    "test": "nyc --reporter=html mocha tests --recursive --require @babel/register"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-optional-chaining": "^7.6.0",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/register": "^7.6.2",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.0-beta.6",
+    "babel-plugin-transform-optional-chaining": "^7.0.0-beta.3",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^5.15.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "mocha": "^3.1.2",
+    "prettier": "^1.18.2",
+    "nyc": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
