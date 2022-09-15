@@ -3,5 +3,5 @@
 # dependencies
 /node_modules
 
-/.nyc_output/
-/.vscode/
+.nyc_output/
+.vscode/
