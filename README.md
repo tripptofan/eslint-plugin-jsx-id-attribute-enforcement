@@ -32,12 +32,12 @@ $ npm install eslint-plugin-jsx-id-attribute-enforcement --save-dev
 
 ## <a name="usage"></a> Usage
 
-Add `enforce-ids-in-jsx` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `jsx-id-attribute-enforcement` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
     "plugins": [
-        "enforce-ids-in-jsx"
+        "jsx-id-attribute-enforcement"
     ]
 }
 ```
@@ -48,8 +48,8 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "enforce-ids-in-jsx/missing-ids": 2,
-        "enforce-ids-in-jsx/unique-ids": 2,
+        "jsx-id-attribute-enforcement/missing-ids": 2,
+        "jsx-id-attribute-enforcement/unique-ids": 2,
     }
 }
 ```
@@ -95,7 +95,7 @@ The second value is an optional object to set options on the rule.
 
     Examples of configuration:
     ```javascript
-        "enforce-ids-in-jsx/missing-ids": ['error', {
+        "jsx-id-attribute-enforcement/missing-ids": ['error', {
             target: ['form', 'material'],
             targetCustom: ['AddressField', 'CustomCheckbox', 'MoviesListContainer'],
             priorityOverSpread: false,
@@ -103,7 +103,7 @@ The second value is an optional object to set options on the rule.
     ```
 
     ```javascript
-        "enforce-ids-in-jsx/missing-ids": ['warning', {
+        "jsx-id-attribute-enforcement/missing-ids": ['warning', {
             target: ['none'],
             targetCustom: ['ul', 'ol', 'header', 'footer', 'section'],
             priorityOverSpread: false,
