@@ -1,4 +1,4 @@
-# eslint-plugin-enforce-ids-in-jsx
+# eslint-plugin-jsx-id-attribute-enforcement
 
 This is a small collection of ESLint rules to improve usage of id attributes in your markup.
 
@@ -22,13 +22,13 @@ You'll first need to install [ESLint](http://eslint.org):
 $ npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-enforce-ids-in-jsx`:
+Next, install `eslint-plugin-jsx-id-attribute-enforcement`:
 
 ```
-$ npm install eslint-plugin-enforce-ids-in-jsx --save-dev
+$ npm install eslint-plugin-jsx-id-attribute-enforcement --save-dev
 ```
 
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-enforce-ids-in-jsx` globally.
+**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-jsx-id-attribute-enforcement` globally.
 
 ## <a name="usage"></a> Usage
 
