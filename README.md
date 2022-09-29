@@ -1,6 +1,6 @@
 # eslint-plugin-jsx-id-attribute-enforcement
 
-This is a small collection of ESLint rules to improve usage of id attributes in your markup.
+This is a small collection of ESLint rules to improve usage of id attributes in your markup. As of v.1.0.2, better identification of unique ids in the event of expressions within template literals has been added.
 
 ## Table of Contents
 
